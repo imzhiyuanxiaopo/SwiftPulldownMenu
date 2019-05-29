@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26686DFE229A90F300ADE74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26686DFD229A90F300ADE74C /* AppDelegate.swift */; };
+		26686E00229A90F300ADE74C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26686DFF229A90F300ADE74C /* ViewController.swift */; };
+		26686E03229A90F300ADE74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26686E01229A90F300ADE74C /* Main.storyboard */; };
+		26686E05229A90F500ADE74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26686E04229A90F500ADE74C /* Assets.xcassets */; };
+		26686E08229A90F500ADE74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26686E06229A90F500ADE74C /* LaunchScreen.storyboard */; };
+		26686E10229A910700ADE74C /* GZYPullDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26686E0F229A910700ADE74C /* GZYPullDownListView.swift */; };
+		D4500DEF0F61AB22C0EF35E7 /* Pods_GZYGlidingViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959AF8375F3C325D2FA86CA /* Pods_GZYGlidingViewSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26686DFA229A90F300ADE74C /* GZYGlidingViewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZYGlidingViewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26686DFD229A90F300ADE74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26686DFF229A90F300ADE74C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26686E02229A90F300ADE74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26686E04229A90F500ADE74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26686E07229A90F500ADE74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26686E09229A90F500ADE74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26686E0F229A910700ADE74C /* GZYPullDownListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZYPullDownListView.swift; sourceTree = "<group>"; };
+		4959AF8375F3C325D2FA86CA /* Pods_GZYGlidingViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GZYGlidingViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35642C025361BE557E68376 /* Pods-GZYGlidingViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZYGlidingViewSwift.debug.xcconfig"; path = "Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3A3C1604D47723898E3E98 /* Pods-GZYGlidingViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZYGlidingViewSwift.release.xcconfig"; path = "Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26686DF7229A90F300ADE74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4500DEF0F61AB22C0EF35E7 /* Pods_GZYGlidingViewSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26686DF1229A90F300ADE74C = {
+			isa = PBXGroup;
+			children = (
+				26686DFC229A90F300ADE74C /* GZYGlidingViewSwift */,
+				26686DFB229A90F300ADE74C /* Products */,
+				5DA41642EFAEC97E98B324DA /* Pods */,
+				E45385046A261566561BE73B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26686DFB229A90F300ADE74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26686DFA229A90F300ADE74C /* GZYGlidingViewSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26686DFC229A90F300ADE74C /* GZYGlidingViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				26686DFD229A90F300ADE74C /* AppDelegate.swift */,
+				26686DFF229A90F300ADE74C /* ViewController.swift */,
+				26686E0F229A910700ADE74C /* GZYPullDownListView.swift */,
+				26686E01229A90F300ADE74C /* Main.storyboard */,
+				26686E04229A90F500ADE74C /* Assets.xcassets */,
+				26686E06229A90F500ADE74C /* LaunchScreen.storyboard */,
+				26686E09229A90F500ADE74C /* Info.plist */,
+			);
+			path = GZYGlidingViewSwift;
+			sourceTree = "<group>";
+		};
+		5DA41642EFAEC97E98B324DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C35642C025361BE557E68376 /* Pods-GZYGlidingViewSwift.debug.xcconfig */,
+				FE3A3C1604D47723898E3E98 /* Pods-GZYGlidingViewSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E45385046A261566561BE73B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4959AF8375F3C325D2FA86CA /* Pods_GZYGlidingViewSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26686DF9229A90F300ADE74C /* GZYGlidingViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26686E0C229A90F500ADE74C /* Build configuration list for PBXNativeTarget "GZYGlidingViewSwift" */;
+			buildPhases = (
+				2E43C324C4B9620878C6E7A8 /* [CP] Check Pods Manifest.lock */,
+				26686DF6229A90F300ADE74C /* Sources */,
+				26686DF7229A90F300ADE74C /* Frameworks */,
+				26686DF8229A90F300ADE74C /* Resources */,
+				8C29FF9C8E632C78EF29344E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZYGlidingViewSwift;
+			productName = GZYGlidingViewSwift;
+			productReference = 26686DFA229A90F300ADE74C /* GZYGlidingViewSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26686DF2229A90F300ADE74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zhiyuan Gao";
+				TargetAttributes = {
+					26686DF9229A90F300ADE74C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 26686DF5229A90F300ADE74C /* Build configuration list for PBXProject "GZYGlidingViewSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26686DF1229A90F300ADE74C;
+			productRefGroup = 26686DFB229A90F300ADE74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26686DF9229A90F300ADE74C /* GZYGlidingViewSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26686DF8229A90F300ADE74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26686E08229A90F500ADE74C /* LaunchScreen.storyboard in Resources */,
+				26686E05229A90F500ADE74C /* Assets.xcassets in Resources */,
+				26686E03229A90F300ADE74C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E43C324C4B9620878C6E7A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GZYGlidingViewSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C29FF9C8E632C78EF29344E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26686DF6229A90F300ADE74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26686E00229A90F300ADE74C /* ViewController.swift in Sources */,
+				26686E10229A910700ADE74C /* GZYPullDownListView.swift in Sources */,
+				26686DFE229A90F300ADE74C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26686E01229A90F300ADE74C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26686E02229A90F300ADE74C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26686E06229A90F500ADE74C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26686E07229A90F500ADE74C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26686E0A229A90F500ADE74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26686E0B229A90F500ADE74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26686E0D229A90F500ADE74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35642C025361BE557E68376 /* Pods-GZYGlidingViewSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GZYGlidingViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzy.GZYGlidingViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26686E0E229A90F500ADE74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3A3C1604D47723898E3E98 /* Pods-GZYGlidingViewSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GZYGlidingViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzy.GZYGlidingViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26686DF5229A90F300ADE74C /* Build configuration list for PBXProject "GZYGlidingViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26686E0A229A90F500ADE74C /* Debug */,
+				26686E0B229A90F500ADE74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26686E0C229A90F500ADE74C /* Build configuration list for PBXNativeTarget "GZYGlidingViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26686E0D229A90F500ADE74C /* Debug */,
+				26686E0E229A90F500ADE74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26686DF2229A90F300ADE74C /* Project object */;
+}
