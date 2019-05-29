@@ -27,7 +27,12 @@ class GZYPullDownListView: UIView {
     var pdViewIsHidden : Bool = true
     /** 箭头方向 默认朝上*/
     var pdViewArrowDirection : PDViewArrowDirection = PDViewArrowDirection.Top
-    /** 视图高度*/
+    /** 边线颜色*/
+    var pdViewBorderColor : CGColor = UIColor.init(red: 50, green: 50, blue: 50, alpha: 1).cgColor
+    /** 边线宽*/
+    var pdViewBorderWidth : CGFloat = 1
+    
+    /** 视图一些位置  无需修改*/
     private var viewTopY : CGFloat = 0.0
     private var viewBottomY : CGFloat = 0.0
     private var viewLeftX : CGFloat = 0.0
@@ -43,13 +48,16 @@ class GZYPullDownListView: UIView {
     /// 初始化
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.green
         self.isHidden = true
+        backgroundColor = UIColor.white
         pdViewIsHidden = true
     }
     /// 解档
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.isHidden = true
+        backgroundColor = UIColor.white
+        pdViewIsHidden = true
     }
     
     override func layoutSubviews() {
@@ -173,9 +181,9 @@ extension GZYPullDownListView{
         let shapeLayer = CAShapeLayer.init()
         shapeLayer.frame = self.bounds
         shapeLayer.path = maskPath.cgPath
-        shapeLayer.lineWidth = 1
+        shapeLayer.lineWidth = pdViewBorderWidth
         shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.strokeColor = UIColor.clear.cgColor
+        shapeLayer.strokeColor = pdViewBorderColor
         layer.addSublayer(shapeLayer)
         
         drawRectCompelete = true
@@ -223,6 +231,16 @@ extension GZYPullDownListView{
     
     /// 计算视图如何画出来
     private func calculateOrigin(){
+        if pdViewArrowDirection == .Top || pdViewArrowDirection == .Bottom{
+            if pdViewArrowPosition == 0 || !(pdViewArrowPosition > pdViewArrowSize.width/2 && pdViewArrowPosition < self.frame.width - pdViewArrowSize.width/2) {
+                pdViewArrowPosition = pdViewArrowSize.width/2 + pdViewCornerRadius
+            }
+        }else{
+            if pdViewArrowPosition == 0 || !(pdViewArrowPosition > pdViewArrowSize.height/2 && pdViewArrowPosition < self.frame.height - pdViewArrowSize.height/2) {
+                pdViewArrowPosition = pdViewArrowSize.height/2 + pdViewCornerRadius
+            }
+        }
+        
         switch pdViewArrowDirection {
         case .Right:
             viewTopY = 0

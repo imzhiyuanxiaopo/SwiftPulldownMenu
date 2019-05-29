@@ -13,6 +13,7 @@
 		26686E05229A90F500ADE74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26686E04229A90F500ADE74C /* Assets.xcassets */; };
 		26686E08229A90F500ADE74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26686E06229A90F500ADE74C /* LaunchScreen.storyboard */; };
 		26686E10229A910700ADE74C /* GZYPullDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26686E0F229A910700ADE74C /* GZYPullDownListView.swift */; };
+		26686E1A229E1F2200ADE74C /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26686E19229E1F2200ADE74C /* demo.gif */; };
 		D4500DEF0F61AB22C0EF35E7 /* Pods_GZYGlidingViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959AF8375F3C325D2FA86CA /* Pods_GZYGlidingViewSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		26686E07229A90F500ADE74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26686E09229A90F500ADE74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26686E0F229A910700ADE74C /* GZYPullDownListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZYPullDownListView.swift; sourceTree = "<group>"; };
+		26686E19229E1F2200ADE74C /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		4959AF8375F3C325D2FA86CA /* Pods_GZYGlidingViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GZYGlidingViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35642C025361BE557E68376 /* Pods-GZYGlidingViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZYGlidingViewSwift.debug.xcconfig"; path = "Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		FE3A3C1604D47723898E3E98 /* Pods-GZYGlidingViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZYGlidingViewSwift.release.xcconfig"; path = "Target Support Files/Pods-GZYGlidingViewSwift/Pods-GZYGlidingViewSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,15 +65,24 @@
 		26686DFC229A90F300ADE74C /* GZYGlidingViewSwift */ = {
 			isa = PBXGroup;
 			children = (
+				26686E1B229E1F3600ADE74C /* GZYPDView */,
+				26686E19229E1F2200ADE74C /* demo.gif */,
 				26686DFD229A90F300ADE74C /* AppDelegate.swift */,
 				26686DFF229A90F300ADE74C /* ViewController.swift */,
-				26686E0F229A910700ADE74C /* GZYPullDownListView.swift */,
 				26686E01229A90F300ADE74C /* Main.storyboard */,
 				26686E04229A90F500ADE74C /* Assets.xcassets */,
 				26686E06229A90F500ADE74C /* LaunchScreen.storyboard */,
 				26686E09229A90F500ADE74C /* Info.plist */,
 			);
 			path = GZYGlidingViewSwift;
+			sourceTree = "<group>";
+		};
+		26686E1B229E1F3600ADE74C /* GZYPDView */ = {
+			isa = PBXGroup;
+			children = (
+				26686E0F229A910700ADE74C /* GZYPullDownListView.swift */,
+			);
+			path = GZYPDView;
 			sourceTree = "<group>";
 		};
 		5DA41642EFAEC97E98B324DA /* Pods */ = {
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26686E08229A90F500ADE74C /* LaunchScreen.storyboard in Resources */,
+				26686E1A229E1F2200ADE74C /* demo.gif in Resources */,
 				26686E05229A90F500ADE74C /* Assets.xcassets in Resources */,
 				26686E03229A90F300ADE74C /* Main.storyboard in Resources */,
 			);

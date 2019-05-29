@@ -24,9 +24,12 @@ class ViewController: UIViewController {
             make.size.equalTo(CGSize.init(width: 200, height: 120))
             make.centerX.equalToSuperview()
         })
-        view1.pdViewArrowPosition = 100
         view1.pdViewArrowDirection = .Bottom
-        
+        view1.backgroundColor = UIColor.yellow
+        view1.pdViewBorderWidth = 4
+        view1.pdViewBorderColor = UIColor.gray.cgColor
+        view1.pdViewArrowPosition = 50
+        view1.pdViewCornerRadius = 20
         
         
         view.addSubview(view2)
@@ -37,7 +40,9 @@ class ViewController: UIViewController {
         })
         view2.pdViewArrowPosition = 100
         view2.pdViewArrowDirection = .Top
-        
+        view2.backgroundColor = UIColor.blue
+        view2.pdViewBorderWidth = 1
+        view2.pdViewBorderColor = UIColor.green.cgColor
         
         view.addSubview(view3)
         view3.snp.makeConstraints({ (make) in
@@ -47,6 +52,8 @@ class ViewController: UIViewController {
         })
         view3.pdViewArrowPosition = 100
         view3.pdViewArrowDirection = .Left
+        view3.backgroundColor = UIColor.purple
+        view3.pdViewArrowSize = CGSize.init(width: 20, height: 30)
         
         view.addSubview(view4)
         view4.snp.makeConstraints({ (make) in
@@ -54,9 +61,7 @@ class ViewController: UIViewController {
             make.size.equalTo(CGSize.init(width: 100, height: 200))
             make.centerY.equalToSuperview()
         })
-        view4.pdViewArrowPosition = 100
         view4.pdViewArrowDirection = .Right
-        
     }
     
     
